@@ -1,63 +1,83 @@
 const steps = [
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 1]',
-        explanation: 'Step 1: Place the ruler horizontally at the bottom of your paper (about 1 inch from the edge). Align it from the 1-inch mark to the 7-inch mark on the ruler. Draw a straight horizontal line 6 inches long. This forms the base of the chin and jawline.'
+        image: '',
+        explanation: 'Step 1: Draw the chin base line. Place your ruler horizontally near the bottom of the paper, about 1 inch up from the bottom edge. Align the ruler so it spans from the 1-inch mark on the left side of the paper to the 7-inch mark on the right side. Draw a straight horizontal line 6 inches long. This line represents the bottom of the chin and jawline.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 2]',
-        explanation: 'Step 2: Place the protractor at the left end of the base line (at coordinates roughly 1 inch horizontal, 1 inch vertical on paper). Align the straight edge with the base line, then rotate counterclockwise to 63 degrees. Draw a line along the straight edge for 4.47 inches (calculated as sqrt((2 inches horizontal)^2 + (4 inches vertical)^2)). This forms the left jawline, angling upward to shape the cheek.'
+        image: '',
+        explanation: 'Step 2: Construct the left jawline. At the left end of the chin base line (this point is at 1 inch across from the left edge, and 1 inch up from the bottom — written as coordinate (1,1)), place your protractor. Align the straight edge of the protractor with the chin base line, then rotate counterclockwise until the protractor reads 63 degrees. Using your straight edge, draw a line 4.5 inches long upward at this angle. This angled line forms the left jaw and cheek.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 3]',
-        explanation: 'Step 3: Place the protractor at the right end of the base line (at 7 inches horizontal, 1 inch vertical). Align with the base line, rotate clockwise to 117 degrees (for symmetry). Draw a line along the straight edge for 4.47 inches. This forms the right jawline.'
+        image: '',
+        explanation: 'Step 3: Construct the right jawline. At the right end of the chin base line (this point is at 7 inches across from the left edge, and 1 inch up from the bottom — coordinate (7,1)), place your protractor. Align with the chin base line, then rotate clockwise until the protractor reads 117 degrees. Using your straight edge, draw a line 4.5 inches long upward at this angle. This angled line mirrors the left jawline, forming the right cheek.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 4]',
-        explanation: 'Step 4: Place the protractor center at the midpoint top of the jawlines (4 inches horizontal, 5 inches vertical), with the curved edge facing up. Spin counterclockwise and draw along the inside curve from 180 degrees to 360 degrees, using a 2-inch radius. This forms the rounded top of the head.'
+        image: '',
+        explanation: 'Step 4: Round off the top of the head. Find the midpoint between the tops of the two jawlines (roughly at coordinate (4,5) — 4 inches across, 5 inches up). Place the center of your protractor here, with the curved edge facing upward. Draw a semicircle arc from 180° to 360° with a 2-inch radius. This arc connects the two jawlines and forms the rounded top of the head.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 5]',
-        explanation: 'Step 5: Place the ruler horizontally at 4 inches vertical (eye level). Align from 2.5 inches to 5.5 inches horizontal. Draw a straight line 3 inches long. This sets the guideline for the eyes.'
+        image: '',
+        explanation: 'Step 5: Draw the eye guideline. Place your ruler horizontally at 4 inches vertical height (this means 4 inches up from the bottom edge of the paper). Draw a straight line from 2.5 inches across to 5.5 inches across (3 inches long). This horizontal line marks the level where the eyes will be placed.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 6]',
-        explanation: 'Step 6: Place the protractor center at left eye position (3.2 inches horizontal, 4 inches vertical). Use the curved edge to draw the upper eyelid arc from 0 to 180 degrees, with 0.5-inch radius. This shapes the top of the left eye, giving a slightly hooded look for age.'
+        image: '',
+        explanation: 'Step 6: Shape the upper eyelid of the left eye. At coordinate (3.2,4) — 3.2 inches across, 4 inches up — place the center of your protractor. Draw an arc from 0° to 180° with a 0.5-inch radius. This arc forms the curved upper eyelid of the left eye.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 7]',
-        explanation: 'Step 7: Keep the protractor at the same center (3.2 inches horizontal, 4 inches vertical). Draw the lower eyelid arc from 180 to 360 degrees, with 0.5-inch radius. This completes the left eye almond shape.'
+        image: '',
+        explanation: 'Step 7: Shape the lower eyelid of the left eye. At the same center (3.2,4), draw another arc from 180° to 360° with a 0.5-inch radius. This arc completes the almond shape of the left eye.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 8]',
-        explanation: 'Step 8: Place the protractor center at right eye position (4.8 inches horizontal, 4 inches vertical). Draw the upper eyelid arc from 0 to 180 degrees, with 0.5-inch radius. This shapes the top of the right eye.'
+        image: '',
+        explanation: 'Step 8: Shape the upper eyelid of the right eye. At coordinate (4.8,4) — 4.8 inches across, 4 inches up — place the protractor center. Draw an arc from 0° to 180° with a 0.5-inch radius. This arc forms the curved upper eyelid of the right eye.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 9]',
-        explanation: 'Step 9: Keep the protractor at the same center (4.8 inches horizontal, 4 inches vertical). Draw the lower eyelid arc from 180 to 360 degrees, with 0.5-inch radius. This completes the right eye.'
+        image: '',
+        explanation: 'Step 9: Shape the lower eyelid of the right eye. At the same center (4.8,4), draw another arc from 180° to 360° with a 0.5-inch radius. This arc completes the almond shape of the right eye.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 10]',
-        explanation: 'Step 10: Place the ruler vertically at the center (4 inches horizontal). Draw a straight line from 3.5 inches vertical down to 2.5 inches vertical (1 inch long). This forms the nose bridge.'
+        image: '',
+        explanation: 'Step 10: Draw the nose bridge. Place your ruler vertically at x=4 (the center of the face). Draw a straight line downward from y=3.5 to y=2.5 (1 inch long). This vertical line represents the nose bridge.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 11]',
-        explanation: 'Step 11: Place the ruler horizontally at 2 inches vertical. Draw from 3.5 to 4.5 inches horizontal (1 inch long). This forms the mouth line, slightly neutral for the expression.'
+        image: '',
+        explanation: 'Step 11: Draw the mouth guideline. Place your ruler horizontally at y=2 (2 inches up from the bottom). Draw a line from x=3.5 to x=4.5 (1 inch long). This horizontal line marks the mouth position.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 12]',
-        explanation: 'Step 12: Place the protractor at left eyebrow area (3.15 inches horizontal, 4.25 inches vertical). Angle to 10 degrees and draw a short line along the straight edge for 0.7 inches. This forms the left eyebrow, arched slightly.'
+        image: '',
+        explanation: 'Step 12: Draw the left eyebrow. At coordinate (3.15,4.25), place your protractor. Rotate to 10°. Draw a short line 0.7 inches long. This angled line forms the left eyebrow arch.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 13]',
-        explanation: 'Step 13: Place the protractor at right eyebrow area (4.85 inches horizontal, 4.25 inches vertical). Angle to 170 degrees and draw a short line for 0.7 inches. This forms the right eyebrow.'
+        image: '',
+        explanation: 'Step 13: Draw the right eyebrow. At coordinate (4.85,4.25), place your protractor. Rotate to 170°. Draw a short line 0.7 inches long. This angled line forms the right eyebrow arch.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 14]',
-        explanation: 'Step 14: Place the ruler at nose bottom (3.5 inches horizontal, 2.5 inches vertical). Draw a short horizontal line to 4 inches horizontal (0.5 inches long). This adds the nose base.'
+        image: '',
+        explanation: 'Step 14: Draw the nose base. At coordinate (3.5,2.5), place your ruler. Draw a short horizontal line to (4,2.5), 0.5 inches long. This line represents the base of the nose.'
     },
     {
-        image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...[truncated base64 for Step 15]',
-        explanation: 'Step 15: Place the protractor at left cheek (2.5 inches horizontal, 3.25 inches vertical). Angle to 45 degrees and draw a short wrinkle line for 1 inch. Repeat similar short lines for hair waves and additional wrinkles/earring (small circle at 2.5 inches horizontal, 3 inches vertical with 0.2-inch radius). This adds aging details and short gray hair texture.'
+        image: '',
+        explanation: 'Step 15: Draw the chin contour. Place your ruler horizontally at y=1.5 (1.5 inches up from the bottom). Draw a short curved line upward at both ends to suggest the rounded chin.'
+    },
+    {
+        image: '',
+        explanation: 'Step 16: Add cheek detail. At coordinate (2.5,3.25), place your protractor. Rotate to 45°. Draw a short wrinkle line 1 inch long. Repeat similar angled lines to suggest cheek texture and hair strands.'
+    },
+    {
+        image: '',
+        explanation: 'Step 17: Draw the ears. At left side (1,3.5), sketch a small oval 0.5 inches tall. At right side (7,3.5), sketch a mirrored oval. These ovals represent the ears.'
+    },
+    {
+        image: '',
+        explanation: 'Step 18: Draw the hairline. Place your ruler slightly above the head arc (~4,6.5). Sketch short vertical strokes downward along the arc to suggest hair strands framing the face.'
+    },
+    {
+        image: '',
+        explanation: 'Step 19: Draw the neck. Place your ruler vertically at x=3 and x=5. Draw two parallel lines downward from y=1 to y=0. These lines represent the neck extending from the jawline.'
+    },
+    {
+        image: '',
+        explanation: 'Step 20: Add final details. Use your protractor to draw small arcs for smile lines near the mouth corners. Add short angled lines for wrinkles. Draw a small circle at (2.5,3) with a 0.2-inch radius for an earring. These finishing touches add realism and character.'
     }
 ];
 
