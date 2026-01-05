@@ -1,4 +1,4 @@
-const steps = [
+ const steps = [
     {
         image: '',
         explanation: 'Step 1: Draw the chin base line. Place your ruler horizontally near the bottom of the paper, about 1 inch up from the bottom edge. Align the ruler so it spans from the 1-inch mark on the left side of the paper to the 7-inch mark on the right side. Draw a straight horizontal line 6 inches long. This line represents the bottom of the chin and jawline.'
